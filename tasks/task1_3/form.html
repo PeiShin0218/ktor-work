@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1.3</title>
+</head>
+<body>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <label for="em">Enter your name:</label>
+        <input id="name" name="name">
+    </form>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <label for="em">Enter your email:</label>
+        <input type="email" id="em" name="email">
+    </form>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <label for="em">Date of Birth:</label>
+        <input type="date" name="date" id="date">
+    </form>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <label for="em">Favourite Colour:</label>
+        <input type="color" name="color" id="color" />
+    </form>
+    <form>
+        <legend>User Identify:</legend>
+        <ul>
+            <li>
+                <label for="student">Student</label>
+                <input type="radio" id="soup" name="identify" value="student" checked />
+            </li>
+            <li>
+                <label for="staff member">Staff Member</label>
+                <input type="radio" id="staff member" name="identify" value="staff member" />
+            </li>
+        </ul>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
